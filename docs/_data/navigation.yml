@@ -1,0 +1,58 @@
+header:
+  - title: Home
+    url: /
+  - title: Docs
+    url: /docs/en/install
+    key: docs
+#  - title: Articles
+#    url: /articles
+#    key: articles
+#  - title: Videos
+#    url: /videos
+#    key: videos
+#  - title: Demo
+#    url: https://demo.nlp.johnsnowlabs.com
+  - title: '<span style="color: #FF8A00;"><i class="fab fa-github fa-2x"></i></span>'
+    url: https://github.com/JohnSnowLabs/nlu
+  - title: '<span style="color: #FF8A00;"><i class="fab fa-slack-hash fa-2x"></i></span>'
+    url: https://join.slack.com/t/spark-nlp/shared_invite/enQtNjA4MTE2MDI1MDkxLWVjNWUzOGNlODg1Y2FkNGEzNDQ1NDJjMjc3Y2FkOGFmN2Q3ODIyZGVhMzU0NGM3NzRjNDkyZjZlZTQ0YzY1N2I
+docs-en:
+  - title:     Getting Started
+    children:
+      - title:  Quick Start
+        url:    /docs/en/install
+      - title:  General Concepts
+        url:    /docs/en/concepts
+      - title:  Simple Examples
+        url:    /docs/en/examples
+      - title:  Training Models
+        url:    /docs/en/training
+      - title:  Notebooks
+        url:    /docs/en/notebooks
+      - title:  Visualization Examples
+        url:    /docs/en/viz_examples
+
+  - title:      Documentation
+    children:
+      - title:  NLU Load Function
+        url:    /docs/en/load_api
+      - title:  NLU Predict Function
+        url:    /docs/en/predict_api
+      - title:  Pipelines and Models Namespace
+        url:    /docs/en/namespace
+
+#      - title: Pydocs
+#        url: /api/
+      - title: Release Notes
+        url: /docs/en/release_notes
+
+
+extras:
+  - title:     Extras
+    children:
+      - title:  Articles
+        url:    /articles
+      - title:  Videos
+        url:    /videos
+      - title:  Contribute
+        url:    /contribute
