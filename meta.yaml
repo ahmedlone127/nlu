@@ -1,0 +1,36 @@
+package:
+  name: "nlu"
+  version: 1.0.5
+
+app:
+  entry: nlu
+  summary: The power of 350+ pre-trained NLP models, 100+ Word Embeddings, 50+ Sentence Embeddings, and 50+ Classifiers in 46 languages with 1 line of Python code.
+
+source:
+  fn: ahmedlones-0.0.9.tar.gz
+  url: https://files.pythonhosted.org/packages/2a/61/bef9481f8c887dfc4602c521a6c8c93d077ed80c8efdaa6cc90527e8511e/ahmedlones-0.0.9.tar.gz
+  sha256: ff87f4b0f36c4413700b9a405a1bf19555de45222781ee5cf4e207dcb0df43c3
+
+build:
+  noarch: generic
+  number: 0
+  script: "python -m pip install . --no-deps -vv"
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+    - pyspark==2.4.4
+    - spark-nlp >=2.6.2,<2.7
+    - numpy
+    - pyarrow >=0.16.0
+    - pandas
+    - dataclasses
+about:
+  home: https://nlu.johnsnowlabs.com/
+  license: Apache License 2.0
+  license_family: APACHE
+  license_url: https://github.com/JohnSnowLabs/nlu/blob/master/LICENSE
+  description: John Snow Labs' NLU is a Python library for applying state-of-the-art text mining, directly on any dataframe, with a single line of code. As a facade of the award-winning Spark NLP library, it comes with hundreds of pretrained models in tens of languages - all production-grade, scalable, and trainable.
+  summary: The power of 350+ pre-trained NLP models, 100+ Word Embeddings, 50+ Sentence Embeddings, and 50+ Classifiers in 46 languages with 1 line of Python code.
