@@ -24,7 +24,6 @@ jobs:
         wget  https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh 
         bash Anaconda3-5.3.0-Linux-x86_64.sh -b -p 
         anaconda3 -h
-        dir /home/runner/anaconda3
         python -m pip install lxml 
         python -m pip install requests
         python -m pip install setuptools wheel twine
