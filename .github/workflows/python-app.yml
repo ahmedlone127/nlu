@@ -22,7 +22,6 @@ jobs:
         python -m pip install lxml 
         python -m pip install requests
         python -m pip install twine
-        python -m pip install bdist_wheel
         conda install conda-build
         
         python upload.py
