@@ -28,9 +28,6 @@ jobs:
         python -m pip install lxml 
         python -m pip install requests
         python -m pip install setuptools wheel twine
-        #conda install conda-build
-        #conda install conda-verify
-        
         
         
         python upload.py
