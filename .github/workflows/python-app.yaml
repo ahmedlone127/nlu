@@ -21,14 +21,14 @@ jobs:
         python-version: 3.6
     - name: Install dependencies
       run: |
-        wget  https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh 
-        bash Anaconda3-5.3.0-Linux-x86_64.sh -b -p 
+        wget --quiet https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh -O ~/anaconda.sh 
+        /bin/bash ~/anaconda.sh -b -p /opt/conda 
         anaconda3 -h
         python -m pip install lxml 
         python -m pip install requests
         python -m pip install setuptools wheel twine
-        conda install conda-build
-        conda install conda-verify
+        #conda install conda-build
+        #conda install conda-verify
         
         
         
