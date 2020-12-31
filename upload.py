@@ -42,7 +42,7 @@ def edit_file(info_,path_of_file):
 	result.close()
 	file.close()
 	return version
-info = get_requried_info("ahmedlones")
+info = get_requried_info("nlu")
 version = edit_file(info,"meta.yaml")
 version = version.rstrip("\n")
 os.system("python3.6 setup.py sdist bdist_wheel ")
